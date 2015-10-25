@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(242, 101, 34, 1);
+}
+
+#content {
+  font-size: 50vh;
+  font-family: 'Noto Serif', serif;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
